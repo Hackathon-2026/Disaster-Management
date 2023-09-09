@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';  
 import Navbar from "./Components/Navbar"
 import Body from './body/body'
 // import Footer from'./footer/footer'
