@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import "../../Styles/main.css";
+import "./navbar.css";
 import Avatar from '@mui/material/Avatar';
 import {NavLink} from "react-router-dom"
 
@@ -34,6 +34,13 @@ function Navbar() {
 				<FaBars />
 			</button>
 		
+			{/* <div className='right'>
+          <div className='nav_btn'>
+            <NavLink to="/login">sign in</NavLink>
+          </div>
+          
+          <Avatar className='avtar'/>
+        </div> */}
 		</header>
 	);
 }
