@@ -1,2 +1,0 @@
-Please use different branches to work and push at separate times to avoid conflict.
-Don't create Pull Request, will merge all at once.
