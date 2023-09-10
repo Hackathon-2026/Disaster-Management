@@ -34,13 +34,13 @@ function Navbar() {
 				<FaBars />
 			</button>
 		
-			{/* <div className='right'>
+			<div className='right'>
           <div className='nav_btn'>
             <NavLink to="/login">sign in</NavLink>
           </div>
           
           <Avatar className='avtar'/>
-        </div> */}
+        </div>
 		</header>
 	);
 }
