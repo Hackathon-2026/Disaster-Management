@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Disaster-Management/static/css/main.6097862e.css",
+    "main.js": "/Disaster-Management/static/js/main.8299f256.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Disaster-Management/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/Disaster-Management/index.html",
+    "main.6097862e.css.map": "/Disaster-Management/static/css/main.6097862e.css.map",
+    "main.8299f256.js.map": "/Disaster-Management/static/js/main.8299f256.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Disaster-Management/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6097862e.css",
+    "static/js/main.8299f256.js"
+  ]
+}
