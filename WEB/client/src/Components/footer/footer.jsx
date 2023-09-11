@@ -1,10 +1,9 @@
 import React from 'react';
 import './footer.css';
-// import fb from '../assets/fbimg.png'
-// import insta from '../assets/instaimg.png'
-// import twitter from '../assets/twitterimg.png'
-// import linkedin from '../assets/linkedinimg.png'
-
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 const Footer=()=>{
@@ -57,10 +56,10 @@ const Footer=()=>{
                     <div className="sb_footer-links_div">
                         <h4>Coming soon on</h4>
                         <div className="socialmedia">
-                            <p><img src='/assets/fb.png' alt=""/></p>
-                            <p><img src='/assets/insta.png' alt=""/></p>
-                            <p><img src='/assets/twitter.png' alt=""/></p>
-                            <p><img src='assets/linkedin.png' alt=""/></p>
+                            <FacebookIcon/>
+                            <InstagramIcon/>
+                            <TwitterIcon/>
+                            <LinkedInIcon/>
 
                         </div>
                     </div>
