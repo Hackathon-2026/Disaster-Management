@@ -1,3 +1,55 @@
 .container{
     min-height: 70vh;
 }
+
+/* for loginpage */
+
+.create_accountinfo p{
+    font-size: 12px;
+    text-align: center;
+    color: #070101;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.create_accountinfo button{
+    background: linear-gradient(to bottom,#0552ed,#0867f5);
+    height: 29px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #adb1b8;
+    outline: none;
+    margin-top: 15px;
+}
+
+.create_accountinfo a{
+    text-decoration: none;
+    color: #f2e0e0;
+    padding: 10px 35px;
+    letter-spacing: .5px;
+}
+
+/* for sign in page */
+
+.signin_info{
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.signin_info p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+}
+
+
+.signin_info a{
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-left: 5px;
+    color: #0066c0;
+    text-decoration: none;
+    font-weight:600;
+}

@@ -9,6 +9,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
+import {NavLink} from "react-router-dom"
 import "./signup.css"
 
 export default function SignIn() {
@@ -86,9 +87,10 @@ export default function SignIn() {
                     </Link>
                   </Grid> */}
                   <Grid item>
-                    <Link href="#" variant="body2">
-                      {"Don't have an account? Sign Up"}
-                    </Link>
+                  <div className='create_accountinfo'>
+            <p>New to Disaster</p>
+           <NavLink to="/register"> <button>Create Your Disaster account</button></NavLink>
+         </div>
                   </Grid>
                 </Grid>
               </Box>
